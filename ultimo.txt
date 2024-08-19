@@ -1,0 +1,30 @@
+deslizamentos {
+    posição: relativa;
+    estilo de lista: nenhum;
+    estouro: oculto;
+    Largura: 100%;
+    preenchimento: 0;
+    Margem: 0;
+}
+
+. rslides li {
+    -webkit-backface-visibility: oculto;
+    Posição: Absoluto;
+    exibição: nenhuma;
+    Largura: 100%;
+    Esquerda: 0;
+    topo: 0;
+}
+
+. rslides li:primeiro filho {
+    posição: relativa;
+    exibição: bloco;
+    flutuador: esquerda;
+}
+
+. rslides img {
+    exibição: bloco;
+    Altura: Auto;
+    flutuador: esquerda;
+    Largura: 100%;
+    Fronteira: 0;
